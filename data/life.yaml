@@ -3,37 +3,37 @@
 # caption: short handwritten-style note
 # rotate: degrees, keep roughly between -6 and 6 for a natural look
 # size: "sm" | "md" | "lg" — controls the polaroid's width in the arrangement
-- image: "/images/life/photo-01.jpg"
+- image: "/images/life/photo-01.jpeg"
   caption: "sunday, cooking something up"
   rotate: -4
   size: "md"
 
-- image: "/images/life/photo-02.jpg"
+- image: "/images/life/photo-02.jpeg"
   caption: "evening walk"
   rotate: 3
   size: "sm"
 
-- image: "/images/life/photo-03.jpg"
+- image: "/images/life/photo-03.jpeg"
   caption: "the usual crowd"
   rotate: -2
   size: "lg"
 
-- image: "/images/life/photo-04.jpg"
+- image: "/images/life/photo-04.jpeg"
   caption: "coffee, refill #3"
   rotate: 5
   size: "sm"
 
-- image: "/images/life/photo-05.jpg"
+- image: "/images/life/photo-05.jpeg"
   caption: "somewhere in between"
   rotate: -3
   size: "md"
 
-- image: "/images/life/photo-06.jpg"
+- image: "/images/life/photo-06.jpeg"
   caption: "late one, worth it"
   rotate: 2
   size: "sm"
 
-- image: "/images/life/photo-07.jpg"
+- image: "/images/life/photo-07.jpeg"
   caption: "still here"
   rotate: -5
   size: "md"
