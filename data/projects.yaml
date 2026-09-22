@@ -1,0 +1,17 @@
+# Edit project details here. `github` should point at the real repo —
+# replace the REPLACE_WITH_... placeholders before publishing.
+- name: "BA10tive"
+  description: "Turns YouTube videos into interactive quizzes, powered by AI."
+  github: "https://github.com/Mandira124/BA10tive"
+
+- name: "RAG-Based Research Assistant"
+  description: "A research assistant that retrieves sources and writes cited answers."
+  github: "https://github.com/Mandira124/RAG-Based-Research-Assistant"
+
+- name: "StudyBuddy"
+  description: "A collaborative web app for studying together."
+  github: "https://github.com/Mandira124/StudyBuddy"
+
+- name: "Amazon Price Prediction"
+  description: "A machine-learning model that predicts product prices from listing data."
+  github: "https://github.com/Mandira124/Amazon-ML-Challenge-2025"

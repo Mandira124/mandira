@@ -1,0 +1,12 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Mandira Sharma"
+
+[params]
+  description = "Mandira Sharma — AI/ML & Software Engineering"
+
+[build]
+  writeStats = false
+
+[minify]
+  disableXML = true

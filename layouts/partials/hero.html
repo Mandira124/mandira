@@ -1,0 +1,9 @@
+{{ $hero := .Params.hero }}
+<section class="hero" id="hero" aria-label="Introduction">
+  <img
+    class="hero-image"
+    src="{{ $hero.portrait | relURL }}"
+    alt="{{ $hero.portrait_alt }}"
+    loading="eager"
+    width="1024" height="572">
+</section>

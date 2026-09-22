@@ -1,0 +1,15 @@
+{{ $contact := .Params.contact }}
+<section class="contact" id="contact" aria-labelledby="contact-heading">
+  <h2 id="contact-heading" class="contact-heading">Contact</h2>
+  <ul class="contact-list">
+    <li>
+      <a href="mailto:{{ $contact.email }}">Email</a>
+    </li>
+    <li>
+      <a href="{{ $contact.github_url }}" target="_blank" rel="noopener">GitHub</a>
+    </li>
+    <li>
+      <a href="{{ $contact.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>
+    </li>
+  </ul>
+</section>

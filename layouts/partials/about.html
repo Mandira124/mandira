@@ -1,0 +1,9 @@
+{{ $about := .Params.about }}
+<section class="about" id="about" aria-labelledby="about-heading">
+  <h2 id="about-heading" class="about-heading">{{ $about.heading }}</h2>
+  <div class="about-body">
+    {{ range $about.paragraphs }}
+    <p>{{ . }}</p>
+    {{ end }}
+  </div>
+</section>

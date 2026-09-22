@@ -1,0 +1,11 @@
+<section class="life" id="life" aria-labelledby="life-heading">
+  <h2 id="life-heading" class="life-heading">Off the clock</h2>
+  <div class="scrapbook">
+    {{ range $i, $photo := .Site.Data.life }}
+    <figure class="polaroid polaroid--{{ $photo.size | default "md" }}" style="--rotate: {{ $photo.rotate | default 0 }}deg;">
+      <img src="{{ $photo.image | relURL }}" alt="{{ $photo.caption }}" loading="lazy" width="480" height="480">
+      <figcaption>{{ $photo.caption }}</figcaption>
+    </figure>
+    {{ end }}
+  </div>
+</section>
