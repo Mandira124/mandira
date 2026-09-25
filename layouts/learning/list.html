@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  {{ partial "nav.html" . }}
+
+  <main id="main" class="learning-page">
+  <h1>{{ .Title }}</h1>
+
+  {{ range .Pages.ByDate.Reverse }}
+    <article class="learning-entry">
+      <p class="learning-date">
+        {{ .Date.Format "January 2, 2006" }}
+      </p>
+
+      <h2>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h2>
+
+      <p class="learning-summary">
+        {{ .Summary }}
+      </p>
+    </article>
+  {{ end }}
+</main>
+  <script src="{{ "js/main.js" | relURL }}" defer></script>
+</body>
+</html>

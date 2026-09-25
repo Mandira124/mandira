@@ -147,9 +147,9 @@ h1, h2, h3 { font-weight: 500; margin: 0; }
   z-index: 2;
   min-height: calc(100vh - 4.5rem);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  padding: 2rem var(--gutter);
+  padding: 3rem var(--gutter);
 }
 
 .hero-image {
@@ -376,4 +376,48 @@ h1, h2, h3 { font-weight: 500; margin: 0; }
 .contact-list a:hover,
 .contact-list a:focus-visible {
   border-color: var(--ink);
+}
+/* =========================================================
+   Learning Log
+   ========================================================= */
+
+.learning-page {
+  position: relative;
+  z-index: 2;
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: clamp(4rem, 10vh, 6rem) var(--gutter);
+}
+
+.learning-page h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  margin-bottom: 2.5rem;
+}
+
+.learning-page h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.learning-page p {
+  color: var(--ink-soft);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.learning-page article {
+  margin-bottom: 2.5rem;
+}
+
+.learning-page article p {
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+.learning-page a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }

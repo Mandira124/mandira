@@ -1,8 +1,17 @@
 <nav class="nav">
   <ul class="nav-list">
-    <li><a href="#about">About</a></li>
-    <li><a href="#life">Life</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
+    {{ if eq .Section "learning" }}
+      <li><a href="{{ "/" | relURL }}#about">About</a></li>
+      <li><a href="{{ "/" | relURL }}#life">Life</a></li>
+      <li><a href="{{ "/" | relURL }}#projects">Projects</a></li>
+      <li><a href="{{ "/" | relURL }}#contact">Contact</a></li>
+    {{ else }}
+      <li><a href="#about">About</a></li>
+      <li><a href="#life">Life</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    {{ end }}
+
+    <li><a href="{{ "/learning/" | relURL }}">Learning</a></li>
   </ul>
 </nav>

@@ -12,7 +12,7 @@ about:
   heading: "sooo"
   paragraphs:
     - "Cooking is where my brain finally stops running six tabs at once chopping something, tasting as I go, not thinking about anything in particular. It's the closest thing I have to meditation."
-    - "Outside of that, I'm usually on a walk, or with the same handful of people I've dragged through every phase I've gone through including the current one, which involves a lot of unprompted opinions about language models."
+    - "Outside of that, I'm usually on a walk, or with the same handful of people I've dragged through every phase of my life so far."
     - "The part of programming and AI I actually love isn't the theory, it's the moment an idea stops being an idea when the thing you sketched on paper starts responding, sorting, predicting, working. I mostly build things to get back to that moment."
 
 contact:
